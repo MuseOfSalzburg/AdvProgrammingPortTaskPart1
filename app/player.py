@@ -10,8 +10,8 @@ class Player:
         return self._uid
 
     @property
-    def name(self):
+    def player_name(self):
         return self._player_name
 
     def __str__(self):
-        return f"Player name: {self._player_name} \n PLayer ID: {self._uid}"
+        return f"Player name: {self._player_name} \n Player ID: {self._uid}"
